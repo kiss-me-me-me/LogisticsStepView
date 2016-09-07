@@ -2,6 +2,7 @@
 一个线性的物流展示控件
 
 use HorizontalStepView
+
 in xml
 
     <com.baoyachi.stepview.HorizontalStepView
@@ -34,6 +35,7 @@ in java
             .setStepsViewIndicatorAttentionIcon(ContextCompat.getDrawable(getActivity(), R.drawable.attention));//设置StepsViewIndicator AttentionIcon
 
 use VerticalStepView
+
 in xml
 
     <com.baoyachi.stepview.VerticalStepView
