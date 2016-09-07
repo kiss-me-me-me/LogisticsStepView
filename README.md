@@ -1,5 +1,5 @@
 # LogisticsStepView
-一个线性的物流展示控件，转载自：http://www.jianshu.com/p/df03c1276121
+一个线性的物流展示控件
 
 use HorizontalStepView
 <!--in xml-->
