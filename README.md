@@ -2,7 +2,7 @@
 一个线性的物流展示控件
 
 use HorizontalStepView
-<!--in xml-->
+in xml
 
     <com.baoyachi.stepview.HorizontalStepView
         android:id="@+id/step_view0"
@@ -13,7 +13,7 @@ use HorizontalStepView
         android:textSize="14sp"
         />
             
-<!--in java-->
+in java
 
     HorizontalStepView setpview0 = (HorizontalStepView) mView.findViewById(R.id.step_view0);
         List<String> list0 = new ArrayList<>();
@@ -33,7 +33,8 @@ use HorizontalStepView
             .setStepsViewIndicatorDefaultIcon(ContextCompat.getDrawable(getActivity(), R.drawable.default_icon))//设置StepsViewIndicator DefaultIcon
             .setStepsViewIndicatorAttentionIcon(ContextCompat.getDrawable(getActivity(), R.drawable.attention));//设置StepsViewIndicator AttentionIcon
 
-<!--in xml-->
+use VerticalStepView
+in xml
 
     <com.baoyachi.stepview.VerticalStepView
         android:id="@+id/step_view0"
@@ -42,7 +43,7 @@ use HorizontalStepView
         android:text="vertical setpview"
         />
             
-<!--in java-->
+in java
 
     mSetpview0 = (VerticalStepView) mView.findViewById(R.id.step_view0);
     List<String> list0 = new ArrayList<>();
